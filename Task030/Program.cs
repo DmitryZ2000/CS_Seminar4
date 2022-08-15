@@ -1,14 +1,14 @@
-﻿int [] ArrayCreation(int len)
+﻿int[] ArrayCreation(int len)
 {
-    int[] arr = new int [len];
+    int[] arr = new int[len];
     for (int i = 0; i < len; i++)
     {
-        arr[i] =  new Random().Next(0,2);
+        arr[i] = new Random().Next(0, 2);
     }
     return arr;
 }
 
-void PrintArray(int [] arr)
+void PrintArray(int[] arr)
 {
     int len = arr.Length;
     for (int i = 0; i < len; i++)

@@ -1,12 +1,12 @@
 ﻿double myfactoril(double a)
-{   
-       
+{
+
     double myfactoril = 1;
-    for (int i = 1; i <=a; i++)
-        {
-         myfactoril *=i;
-        }
-    
+    for (int i = 1; i <= a; i++)
+    {
+        myfactoril *= i;
+    }
+
     return myfactoril;
 }
 
